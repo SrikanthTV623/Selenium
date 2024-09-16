@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Execute all the test from all classes -->
+
+<suite name="Alltests">
+    <test name="Tests">
+        <classes>
+            <class name="com.automation.testng.LoginTest"></class>
+            <class name="com.automation.testng.HomeTest"></class>
+            <class name="com.automation.testng.ProfileTest"></class>
+        </classes>
+    </test>
+</suite>

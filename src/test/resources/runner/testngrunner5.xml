@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- Execute only 3 test cases from LoginTest without using group -->
+
+<suite name="SmokeTest">
+    <test name="Login Related Testcases">
+        <classes>
+            <class name="com.automation.testng.LoginTest">
+                <methods>
+                    <include name="Test3"></include>
+                    <include name="Test4"></include>
+                    <include name="Test5"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
